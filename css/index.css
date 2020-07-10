@@ -68,6 +68,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/*index.html & about.html pages top content style*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -94,63 +95,20 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;
 }
-
+/*index.html middle content style*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-.middle-contient {
-    display: flex;
-    flex-flow: row wrap;
-}
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
-}
-.middle-contient h2 {
-    height: 4vh;
-    padding: 0 2%;
-    margin-bottom: 0;
-    margin-top: 2%;
-}
-.middle-contient p {
-    height: 4vh;
-    padding: 0 2%;
-    margin-bottom: 8%;
-}
-.middle-contient button {
-    height: 4vh;
-    width: 100px;
-}
-.middle-contient .yes {
-    width: 50%;
-    justify-content: space-around;
-    margin-bottom: 5%;
-    padding: 10px;    
-}
-.middle-contient .yes:after {
-    content: "";  
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    padding-top: 10px;
-    border-bottom: 1px dashed black;
-}
-.middle-contient button {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border-radius: 10px;
+    margin-bottom: 0;    
 }
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.middle-contient .boxes {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    }
 .middle-content .box1 {
     width: 12.5%;
     height: 100px;
@@ -251,30 +209,67 @@ p {
     align-items: center;
     justify-content: center;
 }
-
-
+/*about.html middle content style*/
+.middle-contient {
+    display: flex;
+    flex-flow: row wrap;
+}
+.middle-contient h2 {
+    height: 4vh;
+    padding: 0 2%;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+.middle-contient p {
+    height: 4vh;
+    padding: 0 2%;
+    margin-bottom: 8%;
+}
+.middle-contient button {
+    height: 4vh;
+    width: 100px;
+}
+.middle-contient .yes {
+    width: 50%;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    padding: 10px;    
+}
+.middle-contient .yes:after {
+    content: "";  
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: 1px dashed black;
+}
+.middle-contient button {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+.middle-contient .boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    }
+/*index.html bottom content style*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-.footer {
-    margin-bottom: 5%;
-}
-
+/*index.html & about.html pages footer content style*/
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -283,8 +278,11 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*about.html additional footer content style*/
+.footer {
+    margin-bottom: 5%;
 }
