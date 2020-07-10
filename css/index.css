@@ -84,8 +84,9 @@ p {
     margin-top: 2%;
     margin-bottom: 4%;
 }
-.top-content link {
+.top-content a {
     margin-top: 2,5%;
+    text-decoration: none;
 }
 
 .top-content .text-container {
